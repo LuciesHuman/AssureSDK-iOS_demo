@@ -1,0 +1,16 @@
+PODS:
+  - AssureSDK (0.4.2)
+
+DEPENDENCIES:
+  - AssureSDK
+
+SPEC REPOS:
+  "git@github.com:LuciesHuman/mobile-podspecs.git":
+    - AssureSDK
+
+SPEC CHECKSUMS:
+  AssureSDK: f031eb94a491355f24ac700e1dcd4e5eb4b13e2d
+
+PODFILE CHECKSUM: 663250c0663c4b52e042f889fe0137a80990cd48
+
+COCOAPODS: 1.5.3

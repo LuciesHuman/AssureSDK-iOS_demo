@@ -13,28 +13,16 @@
 		D3D9E9AD22063D04002DCF89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E9AB22063D04002DCF89 /* Main.storyboard */; };
 		D3D9E9AF22063D05002DCF89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E9AE22063D05002DCF89 /* Assets.xcassets */; };
 		D3D9E9B222063D05002DCF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E9B022063D05002DCF89 /* LaunchScreen.storyboard */; };
-		D3D9E9BD22063D05002DCF89 /* AssureSDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E9BC22063D05002DCF89 /* AssureSDK_DemoTests.swift */; };
-		D3D9E9C822063D05002DCF89 /* AssureSDK_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E9C722063D05002DCF89 /* AssureSDK_DemoUITests.swift */; };
+		F55F111D2194DA04FBAF2280 /* Pods_AssureSDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C26E91E4558BAB947B47368 /* Pods_AssureSDK_Demo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D3D9E9B922063D05002DCF89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3D9E99A22063D04002DCF89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3D9E9A122063D04002DCF89;
-			remoteInfo = "AssureSDK Demo";
-		};
-		D3D9E9C422063D05002DCF89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3D9E99A22063D04002DCF89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3D9E9A122063D04002DCF89;
-			remoteInfo = "AssureSDK Demo";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0165A2F54D3DE8F2CE437912 /* Pods-AssureSDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssureSDK Demo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AssureSDK Demo/Pods-AssureSDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		0885E87312C906C52777A6AA /* Pods-AssureSDK DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssureSDK DemoTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AssureSDK DemoTests/Pods-AssureSDK DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C26E91E4558BAB947B47368 /* Pods_AssureSDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssureSDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		619CF86F2C3AE0CE79C1E8A9 /* Pods-AssureSDK DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssureSDK DemoTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AssureSDK DemoTests/Pods-AssureSDK DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B6DD4E3260228AE67D2357E /* Pods-AssureSDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AssureSDK Demo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AssureSDK Demo/Pods-AssureSDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		89D2934849504C6F458337B4 /* Pods_AssureSDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AssureSDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D9E9A222063D04002DCF89 /* AssureSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssureSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D9E9A522063D04002DCF89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3D9E9A722063D04002DCF89 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +31,6 @@
 		D3D9E9AE22063D05002DCF89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D9E9B122063D05002DCF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D9E9B322063D05002DCF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3D9E9B822063D05002DCF89 /* AssureSDK DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssureSDK DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D9E9BC22063D05002DCF89 /* AssureSDK_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssureSDK_DemoTests.swift; sourceTree = "<group>"; };
-		D3D9E9BE22063D05002DCF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3D9E9C322063D05002DCF89 /* AssureSDK DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssureSDK DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D9E9C722063D05002DCF89 /* AssureSDK_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssureSDK_DemoUITests.swift; sourceTree = "<group>"; };
-		D3D9E9C922063D05002DCF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3D9E9B522063D05002DCF89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3D9E9C022063D05002DCF89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F55F111D2194DA04FBAF2280 /* Pods_AssureSDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +49,9 @@
 			isa = PBXGroup;
 			children = (
 				D3D9E9A422063D04002DCF89 /* AssureSDK Demo */,
-				D3D9E9BB22063D05002DCF89 /* AssureSDK DemoTests */,
-				D3D9E9C622063D05002DCF89 /* AssureSDK DemoUITests */,
 				D3D9E9A322063D04002DCF89 /* Products */,
+				DE2E3DA9C470B5B6EABEE83D /* Pods */,
+				F1D4672EEB6257797D9F990F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D3D9E9A222063D04002DCF89 /* AssureSDK Demo.app */,
-				D3D9E9B822063D05002DCF89 /* AssureSDK DemoTests.xctest */,
-				D3D9E9C322063D05002DCF89 /* AssureSDK DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,22 +77,24 @@
 			path = "AssureSDK Demo";
 			sourceTree = "<group>";
 		};
-		D3D9E9BB22063D05002DCF89 /* AssureSDK DemoTests */ = {
+		DE2E3DA9C470B5B6EABEE83D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D3D9E9BC22063D05002DCF89 /* AssureSDK_DemoTests.swift */,
-				D3D9E9BE22063D05002DCF89 /* Info.plist */,
+				0165A2F54D3DE8F2CE437912 /* Pods-AssureSDK Demo.debug.xcconfig */,
+				7B6DD4E3260228AE67D2357E /* Pods-AssureSDK Demo.release.xcconfig */,
+				619CF86F2C3AE0CE79C1E8A9 /* Pods-AssureSDK DemoTests.debug.xcconfig */,
+				0885E87312C906C52777A6AA /* Pods-AssureSDK DemoTests.release.xcconfig */,
 			);
-			path = "AssureSDK DemoTests";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D3D9E9C622063D05002DCF89 /* AssureSDK DemoUITests */ = {
+		F1D4672EEB6257797D9F990F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D3D9E9C722063D05002DCF89 /* AssureSDK_DemoUITests.swift */,
-				D3D9E9C922063D05002DCF89 /* Info.plist */,
+				4C26E91E4558BAB947B47368 /* Pods_AssureSDK_Demo.framework */,
+				89D2934849504C6F458337B4 /* Pods_AssureSDK_DemoTests.framework */,
 			);
-			path = "AssureSDK DemoUITests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3D9E9CC22063D05002DCF89 /* Build configuration list for PBXNativeTarget "AssureSDK Demo" */;
 			buildPhases = (
+				7F231DD69F9EE1BD697B5461 /* [CP] Check Pods Manifest.lock */,
 				D3D9E99E22063D04002DCF89 /* Sources */,
 				D3D9E99F22063D04002DCF89 /* Frameworks */,
 				D3D9E9A022063D04002DCF89 /* Resources */,
+				B2CBBF4637926DA19FC3E4DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,42 +118,6 @@
 			productName = "AssureSDK Demo";
 			productReference = D3D9E9A222063D04002DCF89 /* AssureSDK Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D3D9E9B722063D05002DCF89 /* AssureSDK DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3D9E9CF22063D05002DCF89 /* Build configuration list for PBXNativeTarget "AssureSDK DemoTests" */;
-			buildPhases = (
-				D3D9E9B422063D05002DCF89 /* Sources */,
-				D3D9E9B522063D05002DCF89 /* Frameworks */,
-				D3D9E9B622063D05002DCF89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3D9E9BA22063D05002DCF89 /* PBXTargetDependency */,
-			);
-			name = "AssureSDK DemoTests";
-			productName = "AssureSDK DemoTests";
-			productReference = D3D9E9B822063D05002DCF89 /* AssureSDK DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D3D9E9C222063D05002DCF89 /* AssureSDK DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3D9E9D222063D05002DCF89 /* Build configuration list for PBXNativeTarget "AssureSDK DemoUITests" */;
-			buildPhases = (
-				D3D9E9BF22063D05002DCF89 /* Sources */,
-				D3D9E9C022063D05002DCF89 /* Frameworks */,
-				D3D9E9C122063D05002DCF89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3D9E9C522063D05002DCF89 /* PBXTargetDependency */,
-			);
-			name = "AssureSDK DemoUITests";
-			productName = "AssureSDK DemoUITests";
-			productReference = D3D9E9C322063D05002DCF89 /* AssureSDK DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +131,6 @@
 				TargetAttributes = {
 					D3D9E9A122063D04002DCF89 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					D3D9E9B722063D05002DCF89 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = D3D9E9A122063D04002DCF89;
-					};
-					D3D9E9C222063D05002DCF89 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = D3D9E9A122063D04002DCF89;
 					};
 				};
 			};
@@ -221,8 +148,6 @@
 			projectRoot = "";
 			targets = (
 				D3D9E9A122063D04002DCF89 /* AssureSDK Demo */,
-				D3D9E9B722063D05002DCF89 /* AssureSDK DemoTests */,
-				D3D9E9C222063D05002DCF89 /* AssureSDK DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,21 +163,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D9E9B622063D05002DCF89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3D9E9C122063D05002DCF89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F231DD69F9EE1BD697B5461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AssureSDK Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CBBF4637926DA19FC3E4DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-AssureSDK Demo/Pods-AssureSDK Demo-frameworks.sh",
+				"${PODS_ROOT}/AssureSDK/AssureSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AssureSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-AssureSDK Demo/Pods-AssureSDK Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3D9E99E22063D04002DCF89 /* Sources */ = {
@@ -265,36 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D9E9B422063D05002DCF89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3D9E9BD22063D05002DCF89 /* AssureSDK_DemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3D9E9BF22063D05002DCF89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3D9E9C822063D05002DCF89 /* AssureSDK_DemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D3D9E9BA22063D05002DCF89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3D9E9A122063D04002DCF89 /* AssureSDK Demo */;
-			targetProxy = D3D9E9B922063D05002DCF89 /* PBXContainerItemProxy */;
-		};
-		D3D9E9C522063D05002DCF89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3D9E9A122063D04002DCF89 /* AssureSDK Demo */;
-			targetProxy = D3D9E9C422063D05002DCF89 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D3D9E9AB22063D04002DCF89 /* Main.storyboard */ = {
@@ -367,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +363,7 @@
 		};
 		D3D9E9CD22063D05002DCF89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0165A2F54D3DE8F2CE437912 /* Pods-AssureSDK Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,7 +373,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evidentid.demo.assuresdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +382,7 @@
 		};
 		D3D9E9CE22063D05002DCF89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6DD4E3260228AE67D2357E /* Pods-AssureSDK Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -461,92 +392,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evidentid.demo.assuresdk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D3D9E9D022063D05002DCF89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TVP389C87G;
-				INFOPLIST_FILE = "AssureSDK DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssureSDK Demo.app/AssureSDK Demo";
-			};
-			name = Debug;
-		};
-		D3D9E9D122063D05002DCF89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TVP389C87G;
-				INFOPLIST_FILE = "AssureSDK DemoTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssureSDK Demo.app/AssureSDK Demo";
-			};
-			name = Release;
-		};
-		D3D9E9D322063D05002DCF89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TVP389C87G;
-				INFOPLIST_FILE = "AssureSDK DemoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AssureSDK Demo";
-			};
-			name = Debug;
-		};
-		D3D9E9D422063D05002DCF89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TVP389C87G;
-				INFOPLIST_FILE = "AssureSDK DemoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.evidentid.AssureSDK-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "AssureSDK Demo";
 			};
 			name = Release;
 		};
@@ -567,24 +416,6 @@
 			buildConfigurations = (
 				D3D9E9CD22063D05002DCF89 /* Debug */,
 				D3D9E9CE22063D05002DCF89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3D9E9CF22063D05002DCF89 /* Build configuration list for PBXNativeTarget "AssureSDK DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3D9E9D022063D05002DCF89 /* Debug */,
-				D3D9E9D122063D05002DCF89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3D9E9D222063D05002DCF89 /* Build configuration list for PBXNativeTarget "AssureSDK DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3D9E9D322063D05002DCF89 /* Debug */,
-				D3D9E9D422063D05002DCF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
